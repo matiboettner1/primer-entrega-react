@@ -4,40 +4,9 @@
   text-align: center;
 }
 
-.nav {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  background-color: #1a1a1a;
-  margin: 0px;
-  height: 60px;
+body {
+  margin: 0;
 }
-
-.buttonNavbar{
-  margin: 15px;
-  width: fit-content;
-  color: white;
-  text-align: center;
-  position: relative;
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-
-.buttonNavbar::before {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: rgb(0, 0, 0);
-  transition: .3s;
-}
-
-.buttonNavbar:hover .buttonNavbar::before {
-    width: 100%;
-  }
 
 
 

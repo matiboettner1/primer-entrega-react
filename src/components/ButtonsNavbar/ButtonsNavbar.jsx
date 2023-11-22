@@ -1,3 +1,5 @@
+import './ButtonsNavbar.css'
+
 const ButtonsNavbar = ({ product }) => {
     return(
         <>
