@@ -1,5 +1,5 @@
 import iconoCarrito from './assets/carrito-de-compras.png'
-import './CartWidget.css'
+import './CartWidget.module.css'
 
 const CartWidget = () => {
     return (
