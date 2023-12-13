@@ -1,18 +1,24 @@
-import ButtonsNavbar from "../ButtonsNavbar/ButtonsNavbar"
-import './Navbar.module.css'
+import classes from '../Navbar/Navbar.module.css'
 import CartWidget from '../CartWidget/CartWidget'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <div className="nav">
-            <div className="logo">
-                <h2>TecnoBoettner</h2>
+        <nav className={classes.nav}>
+            <div className={classes.logo}>
+                <Link to='/'>TecnoBoettner</Link>
             </div>
-            <ButtonsNavbar product={'Mouses'}/>
-            <ButtonsNavbar product={'Keyboards'}/>
-            <ButtonsNavbar product={'Mousepads'}/>
-            <CartWidget/>
-        </div>
+            <div className={classes.categorias}>
+                <Link to='/category/mouses' >Mouses</Link>
+            </div>
+            <div className={classes.categorias}>
+                <Link to='/category/teclados' >Teclados</Link>
+            </div>
+            <div className={classes.categorias}>
+                <Link to='category/mousepads' >Mousepads</Link>
+            </div>
+            <CartWidget />
+        </nav>
     )
 }
 
