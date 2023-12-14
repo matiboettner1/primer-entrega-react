@@ -22,7 +22,7 @@ const ItemListContainer = ({ greeting }) => {
 
     return (
         <div >
-            <h1 className={classes.titulo}>{greeting}</h1>
+            <h1 className={classes.title}>{greeting}</h1>
             <Itemlist products={products} />
         </div>
     )

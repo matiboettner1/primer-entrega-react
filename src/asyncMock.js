@@ -4,7 +4,7 @@ const products = [
         name: 'HyperX Alloy Origins',
         price: 120000,
         category: 'teclados',
-        img: './img_ecommerce/teclado1.jpg',
+        img: '/img_ecommerce/teclado1.jpg',
         stock: 2,
         description: 'teclado hyperx 60% switches brown'
     },
@@ -33,7 +33,7 @@ const products = [
     {
         id: '4',
         name: 'Logitech G Pro X Superlight',
-        price: 110000,
+        price: 170000,
         category: 'mouses',
         img: '/img_ecommerce/mouse1.jpg',
         stock: 6,
@@ -53,7 +53,7 @@ const products = [
     {
         id: '6',
         name: 'HyperX Pulsefire Haste',
-        price: 12000,
+        price: 120000,
         category: 'mouses',
         img: '/img_ecommerce/mouse3.jpg',
         stock: 5,
@@ -72,7 +72,7 @@ const products = [
 
     {
         id: '8',
-        name: 'Esport Tiger Longteng Huoyun',
+        name: 'Esport Tiger Longteng',
         price: 70000,
         category: 'mousepads',
         img: '/img_ecommerce/mousepad2.jpg',
@@ -82,7 +82,7 @@ const products = [
 
     {
         id: '9',
-        name: 'SkyPAD Glasspad Black Cloud',
+        name: 'SkyPAD Glasspad Cloud',
         price: 90000,
         category: 'mousepads',
         img: '/img_ecommerce/mousepad3.jpg',

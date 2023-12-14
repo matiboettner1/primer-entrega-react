@@ -1,5 +1,21 @@
-h1 {
+.title {
     display: flex;
     justify-content: center;
-    font-size: 2.75rem;
+    font-size: 3rem;
+}
+
+.itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 15px;
 }
