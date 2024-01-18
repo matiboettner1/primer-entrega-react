@@ -1,13 +1,19 @@
+import { Link } from 'react-router-dom'
 import iconoCarrito from './assets/carrito-de-compras.png'
+import { useCart } from "../../context/CartContext/CartContext";
 import './CartWidget.module.css'
 
 const CartWidget = () => {
+    const { totalQuantity } = useCart();
+
     return (
         <>
-        <button className='cart'>
-            <img src={iconoCarrito} alt="Imagen de un carrito de compras"></img>
-            <p>0</p>        
-        </button>
+            <Link to="/cart">
+                <button>
+                    <img src={iconoCarrito} alt="Imagen de un carrito de compras"></img>
+                    {totalQuantity}
+                </button>
+            </Link>
         </>
     )
 }
