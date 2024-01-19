@@ -21,7 +21,7 @@ const ContactForm = ({ createOrder }) => {
     if (userData.name && userData.email && userData.phone) {
       createOrder(userData);
     } else {
-      toast.warning("Complete Todos los campos", {
+      toast.warning("Complete todos los campos", {
         position: "bottom-right",
         autoClose: 2000,
         theme: "dark",
