@@ -34,8 +34,8 @@ const ItemListContainer = ({ greeting }) => {
       })
       .catch((error) => {
         toast.warning("Ocurrió un problema, reintente en unos momentos", {
-          position: "bottom-center",
-          autoClose: 3000,
+          position: "bottom-right",
+          autoClose: 2000,
           theme: "dark",
         });
       })

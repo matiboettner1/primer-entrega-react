@@ -22,7 +22,7 @@ const ContactForm = ({ createOrder }) => {
       createOrder(userData);
     } else {
       toast.warning("Complete Todos los campos", {
-        position: "bottom-center",
+        position: "bottom-right",
         autoClose: 2000,
         theme: "dark",
       });

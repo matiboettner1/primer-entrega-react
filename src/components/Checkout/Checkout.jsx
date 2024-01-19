@@ -63,15 +63,15 @@ const Checkout = () => {
         setOrderId(id);
       } else {
         toast.warning("Producto sin stock", {
-          position: "bottom-center",
-          autoClose: 3000,
+          position: "bottom-right",
+          autoClose: 2000,
           theme: "dark",
         });
       }
     } catch (error) {
       toast.warning("Hubo un problema, intentelo nuevamente", {
-        position: "bottom-center",
-        autoClose: 3000,
+        position: "bottom-right",
+        autoClose: 2000,
         theme: "dark",
       });
     } finally {

@@ -16,7 +16,7 @@ export const CartProvider = ({ children }) => {
       setCart((prev) => [...prev, productToAdd]);
     } else {
       toast.warning("Agregando producto al carrito...", {
-        position: "bottom-center",
+        position: "bottom-right",
         autoClose: 2000,
         theme: "dark",
       });
@@ -31,7 +31,7 @@ export const CartProvider = ({ children }) => {
     const cartUpdated = cart.filter((prod) => prod.id !== productId);
     setCart(cartUpdated);
     toast.error("Producto eliminado.", {
-      position: "bottom-center",
+      position: "bottom-right",
       autoClose: 2000,
       theme: "dark",
     });

@@ -28,7 +28,7 @@ const ItemDetailContainer = () => {
       })
       .catch((error) => {
         toast.warning("Ocurrió un problema, reintente en unos momentos", {
-          position: "bottom-center",
+          position: "bottom-right",
           autoClose: 2000,
           theme: "dark",
         });
